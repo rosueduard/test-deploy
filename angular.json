@@ -20,6 +20,7 @@
             "outputPath": "dist/test-deploy",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "/test-deploy/",
             "polyfills": [
               "zone.js"
             ],
@@ -97,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
